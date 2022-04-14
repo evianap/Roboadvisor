@@ -1,0 +1,51 @@
+﻿Symbol,Name,Sector,Price,Price/Earnings,Dividend Yield,Earnings/Share,52 Week High,52 Week Low,Market Cap,EBITDA,Price/Sales,Price/Book,SEC Filings,Variation
+AAPL,Apple Inc.,Information Technology,155.15,16.86,1.5795412,9.2,180.1,131.12,"809,508,034,020.00",79386000000,3.4586093,5.66,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AAPL,0.315694489
+GOOGL,Alphabet Inc Class A,Information Technology,1007.71,31.48,0,22.27,1198,824.3,"733,823,966,137.00",34217000000,6.801692,4.7,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL,0.370840817
+GOOG,Alphabet Inc Class C,Information Technology,1001.52,40.29,0,22.27,1186.89,803.1903,"728,535,558,140.00",32714000000,6.772653,4.67,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOG,0.383117362
+MSFT,Microsoft Corp.,Information Technology,85.01,25.76,1.8747908,2.97,96.07,63.22,"689,978,437,468.00",41079000000,7.1130967,9.49,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT,0.386425126
+AMZN,Amazon.com Inc,Consumer Discretionary,1350.5,296.16,0,6.16,1498,812.5,"685,873,374,731.00",16132000000,3.927053,24.28,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN,0.507589782
+FB,"Facebook, Inc.",Information Technology,171.58,27.9,0,5.39,195.32,132.44,"523,423,036,576.00",23624000000,13.241967,7.08,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FB,0.366476279
+JPM,JPMorgan Chase & Co.,Financials,107.88,15.43,1.9845841,6.3,117.3529,81.635,"386,613,611,000.00",0,3.3714993,1.6,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JPM,0.331089173
+JNJ,Johnson & Johnson,Health Care,126.36,17.31,2.5566885,0.39,148.32,113.15,"353,062,464,971.00",22430000000,4.6326222,4.74,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JNJ,0.278331751
+XOM,Exxon Mobil Corp.,Energy,76.07,21.37,4.0031195,1.88,89.3,76.05,"326,148,660,000.00",39052000000,1.7701944,1.85,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XOM,0.174181675
+BAC,Bank of America Corp,Financials,29.74,16.34,1.536,1.55,32.67,22.07,"321,478,200,969.00",0,3.2011874,1.24,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BAC,0.356422327
+WMT,Wal-Mart Stores,Consumer Staples,100.02,23.1,1.983471,4.39,109.98,66.89,"304,680,931,618.00",30721000000,0.82099426,3.89,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WMT,0.430813837
+WFC,Wells Fargo,Financials,55.4,13.58,2.7111576,4.07,66.31,49.27,"281,463,620,775.00",0,2.8728192,1.58,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WFC,0.307581227
+V,Visa Inc.,Information Technology,113.86,32.72,0.70204765,2.8,126.88,84.88,"270,038,723,213.00",13086000000,14.433654,9.4,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=V,0.368874056
+BRK.B,Berkshire Hathaway,Financials,191.42,30.43,0,9.76,217.62,160.93,"261,401,203,633.00",0,1.4328232,1.58,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BRK.B,0.296155052
+T,AT&T Inc,Telecommunication Services,35.57,12.14,5.4156513,4.76,42.7,32.55,"226,713,270,000.00",49653000000,1.4083152,1.8,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=T,0.285352825
+HD,Home Depot,Consumer Discretionary,181.22,28.1,1.8610487,6.46,207.605,136.82,"223,378,633,329.00",16513000000,2.8964398,84.08,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HD,0.390602582
+CVX,Chevron Corp.,Energy,112.3,27.52,3.885853,4.85,133.88,102.55,"218,978,820,159.00",28877000000,1.6489863,1.71,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CVX,0.278984862
+UNH,United Health Group Inc.,Health Care,216.46,21.47,1.3284917,10.71,250.79,156.49,"218,834,811,333.00",17454000000,1.0903316,4.71,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNH,0.435646309
+INTC,Intel Corp.,Information Technology,42.75,12.32,2.6548672,1.98,50.85,33.23,"211,536,000,000.00",26247000000,3.348876,3.34,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=INTC,0.412163743
+PFE,Pfizer Inc.,Health Care,33.63,12.69,3.8879359,3.51,39.43,31.67,"208,505,541,949.00",20569000000,4.0020885,3.4,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PFE,0.230746357
+VZ,Verizon Communications,Telecommunication Services,49.04,13.08,4.626544,7.36,54.77,42.8,"208,092,277,044.00",45745000000,1.6452544,7.96,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VZ,0.24408646
+PG,Procter & Gamble,Consumer Staples,80.22,20.46,3.3704789,5.6,94.67,80.1,"206,318,943,299.00",17249000000,3.1595004,3.85,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PG,0.18162553
+BA,Boeing Company,Industrials,329.66,27.29,1.9648397,13.47,361.45,163.69,"205,617,405,233.00",12476000000,2.1560605,182.86,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BA,0.599890797
+ORCL,Oracle Corp.,Information Technology,46.84,18.81,1.5551463,2.2,53.14,40.01,"202,302,349,740.00",16545000000,5.2561646,3.56,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL,0.280315969
+CSCO,Cisco Systems,Information Technology,38.77,17.87,2.8755577,1.91,42.98,30.36,"199,425,716,482.00",15447000000,5.484418,3.07,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CSCO,0.325509414
+C,Citigroup Inc.,Financials,71.87,13.48,1.7068943,-3.1,80.7,56.14,"192,709,302,000.00",0,2.1857586,0.9,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=C,0.34172812
+KO,Coca-Cola Company (The),Consumer Staples,43.1,22.8,3.3213644,1.49,48.615,40.22,"189,855,335,601.00",8589000000,6.822138,8.65,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO,0.194779582
+MA,Mastercard Inc.,Information Technology,160.62,34.99,0.5926628,3.65,177.11,105.8,"187,102,014,193.00",7113000000,15.020556,26.93,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MA,0.443967127
+CMCSA,Comcast Corp.,Consumer Discretionary,38.19,18.54,1.8929017,4.74,44,34.78,"186,476,996,883.00",28675000000,2.1797748,2.65,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA,0.241424457
+ABBV,AbbVie Inc.,Health Care,108.48,19.41,2.4995599,3.29,125.86,60.05,"181,386,347,059.00",10310000000,6.291571,26.14,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ABBV,0.606655605
+DWDP,DowDuPont,Materials,68.21,49.43,2.1529746,1.59,77.08,64.01,"165,203,312,427.00",5250000000,2.6922395,1.54,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DWDP,0.191614133
+PEP,PepsiCo Inc.,Consumer Staples,110.15,21.51,2.8370044,4.36,122.51,104.77,"161,413,271,020.00",12843000000,3.6705062,,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PEP,0.161053109
+DIS,The Walt Disney Company,Consumer Discretionary,101.35,17.78,1.6036655,5.7,116.1,96.2,"157,817,273,295.00",12544000000,3.9635563,3.82,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DIS,0.196349285
+PM,Philip Morris International,Consumer Staples,100.39,22.36,4.328479,4.48,123.55,96.66,"153,580,671,803.00",11802000000,2.7574685,1318.7,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PM,0.267855364
+MRK,Merck & Co.,Health Care,54.73,13.75,3.435934,1.4,66.8,53.63,"152,241,530,340.00",8715000000,5.0893345,4.02,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MRK,0.240635849
+IBM,International Business Machines,Information Technology,147.59,10.67,3.8999026,6.11,182.79,139.13,"142,433,003,505.00",16557000000,1.817167,7.7,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IBM,0.2958195
+MMM,3M Company,Industrials,222.89,24.31,2.3328617,7.92,259.77,175.49,"138,721,055,226.00",9048000000,4.3902707,11.34,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MMM,0.378123738
+NVDA,Nvidia Corporation,Information Technology,217.52,82.08,0.26223776,2.57,249.27,95.17,"138,652,800,000.00",3098000000,20.094294,20.39,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA,0.708440603
+GE,General Electric,Industrials,14.45,13.76,3.147541,-0.72,30.59,14.71,"132,249,296,250.00",-206000000,1.0887611,1.7,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GE,1.098961938
+MCD,McDonald's Corp.,Consumer Discretionary,158.97,23.83,2.437994,6.36,178.7,124.36,"132,101,623,787.00",10515400000,5.770237,146.07,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MCD,0.341825502
+AMGN,Amgen Inc,Health Care,173.12,13.76,2.9751508,2.57,201.23,152.16,"128,133,340,000.00",11945000000,5.58192,3.91,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMGN,0.283445009
+MO,Altria Group Inc,Consumer Staples,64.05,18.89,3.9526875,5.31,77.79,60.01,"126,985,101,434.00",10773000000,4.945682,10.32,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MO,0.277595628
+NFLX,Netflix Inc.,Information Technology,250.1,200.08,0,1.25,286.81,138.26,"114,805,404,842.00",809028000,9.861594,30.8,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NFLX,0.593962415
+HON,Honeywell Int'l Inc.,Industrials,146.02,20.68,1.9710299,2.08,165.13,119.31,"114,422,168,609.00",8333000000,2.8267899,5.71,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HON,0.313792631
+MDT,Medtronic plc,Health Care,78.38,17.04,2.2618315,2.89,89.72,75.44,"110,107,062,300.00",9204000000,4.944542,2.14,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDT,0.182189334
+GILD,Gilead Sciences,Health Care,78.22,8.16,2.754954,9.95,89.54,63.759,"108,106,822,109.00",17590000000,5.2087464,4.12,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GILD,0.329596011
+NKE,Nike,Consumer Discretionary,62.49,24.9,1.2189548,2.51,68.83,50.35,"106,776,113,744.00",5162000000,3.0549932,8.91,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NKE,0.295727316
+UTX,United Technologies,Industrials,127.48,19.26,2.1216943,5.7,139.24,107.05,"105,387,272,474.00",10584000000,1.7324123,3.4,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UTX,0.252510198
+BMY,Bristol-Myers Squibb,Health Care,62.69,20.83,2.5546863,2.65,66.1,51.12,"102,506,501,960.00",5170000000,6.503231,6.75,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BMY,0.238953581
+ABT,Abbott Laboratories,Health Care,56.27,22.51,1.9089824,0.26,64.6,42.28,"102,121,042,306.00",5744000000,3.7404804,3.19,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ABT,0.396658966
