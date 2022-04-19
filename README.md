@@ -1,8 +1,6 @@
 ## Roboadvisor
 Roboadvisor is a stock advisory service that takes inputs from the user in order to determine user’s preferred diversification strategy and Investment goals
 
-Using those inputs, the trader places the user into a ‘bucket’ and the bot will be trained to be able to predict the values of the stocks within the user’s bucket.
-
 ## About the Project
 In this project, we capture the user’s inputs through StreamLit to determine their goals and risk appetite.  We do so by allowing the user to pick and choose between stocks/cryptocurrencies between the year 2021-2022 (present day).  Then, the machine learning robot will run it's code and use ML models to output a table of data based on the csv file of top 50 stock/cyrptocurrency data.  Lastly, the buyer will then be asked if they want to buy/not buy the stock/cryptocurrency.  
 
