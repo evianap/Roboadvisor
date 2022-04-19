@@ -34,6 +34,7 @@ Depending on if BASH/ZSH, type "conda init bash or ZSH" to activate conda termin
 Close environment by entering "conda deactivate"
 
 ## Import the required libraries and dependencies
+```
 import os
 import requests
 import json
@@ -47,3 +48,5 @@ from pathlib import Path
 import numpy as np
 
 %matplotlib inline
+```
+
