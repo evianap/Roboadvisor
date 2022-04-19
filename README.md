@@ -32,3 +32,18 @@ Open environment by entering "conda activate dev"
 Enable terminal commands through conda by enter "echo $ {SHELL}" to check BASH/ZSH environment
 Depending on if BASH/ZSH, type "conda init bash or ZSH" to activate conda terminal commands
 Close environment by entering "conda deactivate"
+
+## Import the required libraries and dependencies
+import os
+import requests
+import json
+import pandas as pd
+from dotenv import load_dotenv
+import alpaca_trade_api as tradeapi
+from alpha_vantage.timeseries import TimeSeries
+import matplotlib.pyplot as plt
+import csv
+from pathlib import Path
+import numpy as np
+
+%matplotlib inline
