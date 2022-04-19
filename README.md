@@ -49,4 +49,8 @@ import numpy as np
 
 %matplotlib inline
 ```
-
+We need also to import the relevant alpha vantage libraries :
+```
+from alpha_vantage.timeseries import TimeSeries
+from alpha_vantage.cryptocurrencies import CryptoCurrencies
+````
