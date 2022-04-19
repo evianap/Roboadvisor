@@ -16,22 +16,33 @@ Matplotlib
 Streamlit
 
 ## Installation Guide Python (MacOS)
-Command + Space
-Enter Terminal in search bar and press enter
-Terminal should open
-Open Homebrew Installation website in browser (https://brew.sh/)
-Copy installation code at the bottom of the page
-Once Homebrew is installed, install Python
-Open Terminal
-Enter "brew install python3" into the CLI to install Python
-Installing Anaconda with Python (MacOS):
+### Install Anaconda 
+ 1. Install [Anaconda](https://www.anaconda.com/products/individual) 
+ 2. Open up GitBash(Windows) or Terminal(Mac)
+ 3. Type ```conda update conda```to update Conda
+ 4. Type ```conda update anaconda```to Update Anaconda
+ 5. Type ```conda -n dev python=3.9 anaconda```
+ 6. Type ```conda activate dev```to activate conda
+ 7. Install a dev environement kernel by typing ```python -m ipykernel install --user --name dev```
+ 8. Install a mode environement by typing ```conda install -c conda-forge nodejs```
+ 9. Launch JupyterLab by typing ```jupyter lab```
+ 
+ 
+ 
+ ### Install the Request and Json Library 
+ We will use the following Python modules and libraries to facilitate API requests:
 
-Enter "conda create -n dev python=3.7 anaconda" into the command line terminal
-Return and type Y when prompted
-Open environment by entering "conda activate dev"
-Enable terminal commands through conda by enter "echo $ {SHELL}" to check BASH/ZSH environment
-Depending on if BASH/ZSH, type "conda init bash or ZSH" to activate conda terminal commands
-Close environment by entering "conda deactivate"
+ 1. OS: The OS module comes under Python's standard utility models and provides functions for interacting with the computer's operating system. The OS module does          not require a separate download.
+ 2. Requests: The Python Requests library helps you access data via APIs.
+ 3. JSON: This library puts the response (that is, the data) from an API into a human-readable format.
+
+ To install the Requests library, check that your development environment is active, and then run the following command:
+  
+  ```conda install -c anaconda requests```
+
+ To install the JSON library, check that your development environment is active, and then run the following command:
+   
+   ```conda install -c jmcmurray json```
 
 ## Import the required libraries and dependencies
 ```
