@@ -27,8 +27,6 @@ Streamlit
  8. Install a mode environement by typing ```conda install -c conda-forge nodejs```
  9. Launch JupyterLab by typing ```jupyter lab```
  
- 
- 
  ### Install the Request and Json Library 
  We will use the following Python modules and libraries to facilitate API requests:
 
@@ -76,22 +74,50 @@ from sklearn.ensemble import RandomForestClassifier
 ```
 `````
 
-
-
-
 ## Usage
 
+As a user, I want the AI model/ML trading robot to tell me which top 50 stock/cryptocurrencies would be best to buy/invest in.  
+
+Trading robot recieves information from the user, including price history, macroeconomic, and company fundamental factors to determine which stock/crypto would be best to buy.  
+
+Indicators include EPS, Stock/crypto price, inflation,cosumer sentiment
+
+Machine Learning models include Random Forest Classifier, Logistic Regression, and Quadratic Discriminant Analysis
 
 ## Dashboard Demonstration
 
+1.  Robotrader will recieve user input through streamllit to understand goals/risk of user
+![INSERT PHOTO OF DASHBAORD]
+2.  Robot will determine which bucket/category/classification the user will fall under (i.e. stock/crypto/bonds)
+ ![INSERT PHOTO OF buckets]
+3.  Data will output on a spreadsheet for user
+ ![INSERT PHOTO OF SPREADSHEET]  
+
 ## Contributers 
 
-Harini Atmakuri
+Rama Kiran Atmakuri 
+ram.atmakuri@outlook.com 
+www.linkedin.com/in/ramatmakuri99
+
 Amanda Hum
+EMAIL
+LINK
+
 Jose (last name)
+EMAIL
+LINK
+
 Amine Baite
-Alexis Rose Garcia Alexisg324@gmail.com https://www.linkedin.com/in/alexis-rose-garcia
-Kyle Huber kyhuber@gmail.com https://www.linkedin.com/in/huberkyle/
+EMAIL 
+LINK
+
+Alexis Rose Garcia 
+Alexisg324@gmail.com 
+https://www.linkedin.com/in/alexis-rose-garcia
+
+Kyle Huber 
+kyhuber@gmail.com 
+https://www.linkedin.com/in/huberkyle/
 
 ## License
 license() A. HISTORY OF THE SOFTWARE ==========================
@@ -156,3 +182,6 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 Financial Technology Bootcamp
 UCB-Coding-Bootcamp (2021-2022). Module 1-16. UC Berkeley Fintech Extension. https://courses.bootcampspot.com/
+
+Alpha Vantage (API): 
+Alpha Vantage (2022). www.alphavantage.co
