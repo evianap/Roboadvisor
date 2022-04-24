@@ -86,6 +86,7 @@ from sklearn.metrics import recall_score
 ```
 We need to import required modules for Linear Regression, Metrics and Classifier: 
 ````
+```
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC 
 #from sklearn.preprocessing import GetDummies
@@ -98,8 +99,8 @@ from sklearn.metrics import r2_score
 from sklearn.ensemble import RandomForestRegressor
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
-
 ```
+
 
 ## Contributers 
 
