@@ -256,10 +256,14 @@ print(stock_analysis_data)
 # Listing of the features columns 
 FEATURES = list(stock_analysis_data_lr.iloc[:,:-1])
 print(FEATURES)
+# Streamlit Integration - Title
 st.title('Welcome to RoboAdvisor!!!')
+# Streamlit Integration - Subheader
 st.subheader('Please select a stock from the dropdown below for obtaining estimated prices')
+# Streamlit Integration - Multiselect option fot tickers and the selected stocks are captured in a variable
 selected_stocks = st.multiselect ("Tickers?", Tickers)
 st.write('You selected:')
+# Streamlit Integration - Takes inputs for calculating the estimated prices
 stock_head = ()
 for i in selected_stocks:
     st.write(i)
@@ -290,7 +294,6 @@ else:
     stock_test_regr_1.at[0, stock_head] = 1
 stock_test_regr_1.fillna(0, inplace = True)
 stock_test_regr_1
-
 
 # In[104]:
 
