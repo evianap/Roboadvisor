@@ -39,8 +39,11 @@ We followed the below steps in meeting the project objectives for the MVP
 8. User Input and Ouput: Capture user input through Streamlit to understand Investors expectation of the various macroeconomic and company fundametals to provide the expected price for stock to enable user to make the decision.
 
    a.  Robotrader will recieve user input through streamllit 
+   
 <img width="491" alt="Screen Shot 2022-04-24 at 7 58 52 AM" src="https://user-images.githubusercontent.com/96159292/164986140-b9c2de42-336d-4750-84b8-d337e2414ce0.png">
+
    b. Robot will determine the price of the stock:
+   
  <img width="488" alt="Screen Shot 2022-04-24 at 9 40 27 AM" src="https://user-images.githubusercontent.com/96159292/164986963-9628f784-a6b1-48fd-8890-80036483522d.png">
 
 **Next steps:** 
