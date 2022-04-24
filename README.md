@@ -1,8 +1,9 @@
 ## Roboadvisor
-Roboadvisor is a stock advisory service that takes inputs from the user in order to determine user’s preferred diversification strategy and Investment goals
+Roboadvisor is a stock advisory service that takes inputs from the user in order to determine the user’s preferred diversification strategy and Investment goals
 
 ## About the Project
-In this project, we capture the user’s inputs through StreamLit to determine their goals and risk appetite.  We do so by allowing the user to pick and choose between stocks/cryptocurrencies between the year 2021-2022 (present day).  Then, the machine learning robot will run it's code and use ML models to output a table of data based on the csv file of top 50 stock/cyrptocurrency data.  Lastly, the buyer will then be asked if they want to buy/not buy the stock/cryptocurrency.  
+The goal of the project is to capture the user’s inputs through StreamLit to determine their goals and risk appetite, and provide recommendation on the stocks/cryptocurrencies that they can invest in.  We do so by allowing the user to pick and choose between stocks/cryptocurrencies. Then, the machine learning robot will run it's code and use ML models to output a table of data detailing which stocks/cryptocurrencies in the portfolio will make money. Lastly, the buyer will then be asked if they want to buy/not buy the stock/cryptocurrency and orders will be placed.
+Minimum Viable Product(MVP): The Robotrader is a service that uses multiple Machine Learning models to recommend whether or not to buy a stock based on the following: Historical prices, Macroeconomic factors, and Company fundamentals. To acheive the MVp project objectives, we developed a model that will allow users to select a stock and provide their expectation of the macro economic and company fundamentals. Then, the machine learning robot will run it's code and use ML models to output a recomemndation detailing the closing price of the stock in question. 
 
 ## Getting Started
 # Installation & Technologies 
@@ -15,32 +16,41 @@ Alphavantage API
 Matplotlib
 Streamlit
 
-## Installation Guide Python (MacOS)
-### Install Anaconda 
- 1. Install [Anaconda](https://www.anaconda.com/products/individual) 
- 2. Open up GitBash(Windows) or Terminal(Mac)
- 3. Type ```conda update conda```to update Conda
- 4. Type ```conda update anaconda```to Update Anaconda
- 5. Type ```conda -n dev python=3.9 anaconda```
- 6. Type ```conda activate dev```to activate conda
- 7. Install a dev environement kernel by typing ```python -m ipykernel install --user --name dev```
- 8. Install a mode environement by typing ```conda install -c conda-forge nodejs```
- 9. Launch JupyterLab by typing ```jupyter lab```
+**Approach:** 
+
+We followed the below steps in meeting the project objectives for the MVP
+
+1. Data Collection: Build APIs to gather data on specific stocks/cryptos and macro economic indicators.
+      Source: Alpha Vantage
+      Pulled historical data on the following indicators:
+      EPS
+      Stock Price (on top 50 stocks in the S&P 500)
+      Cryptocurrency Price
+      Inflation
+      Consumer Sentiment
+2. Data Analysis: Analyze the data trends and the correlation between the indicators. Below is an analysis of the correlation between different features that make up the ctock price, and ana anlsysi of the closing price of the stocks. 
+   <img width="473" alt="Screen Shot 2022-04-24 at 8 57 37 AM" src="https://user-images.githubusercontent.com/96159292/164985383-b769de72-57b1-40d5-b8e0-cdf70887e8ac.png">
+<img width="398" alt="Screen Shot 2022-04-24 at 8 58 42 AM" src="https://user-images.githubusercontent.com/96159292/164985390-3d2c3864-8077-4b2f-a86a-3ed15b59c4f3.png">
+4. Structure & Format Data: Work through data to ensure that periods match up and that it is accepted into the ML models.
+<img width="671" alt="Screen Shot 2022-04-24 at 9 08 13 AM" src="https://user-images.githubusercontent.com/96159292/164985529-b09aaac0-f41c-45c4-b371-f21184e6161f.png">
+6. ML: Run the data through multiple ML models, train the models, compare model performance. More specifically, we looked at the problem from a classification problem perspective as well as a Regression problem perspective, and selected the best ML model for each of the problems. The<img width="882" alt="Screen Shot 2022-04-24 at 9 18 23 AM" src="https://user-images.githubusercontent.com/96159292/164986039-194d93aa-7023-4798-b0a0-4b9fadd15254.png">
  
- ### Install the Request and Json Library 
- We will use the following Python modules and libraries to facilitate API requests:
+<img width="877" alt="Screen Shot 2022-04-24 at 9 18 07 AM" src="https://user-images.githubusercontent.com/96159292/164986037-cafd22e4-0e74-4d72-a9b2-8189a2674053.png">
+8. User Input and Ouput: Capture user input through Streamlit to understand Investors expectation of the various macroeconomic and company fundametals to provide the expected price for stock to enable user to make the decision.
 
- 1. OS: The OS module comes under Python's standard utility models and provides functions for interacting with the computer's operating system. The OS module does          not require a separate download.
- 2. Requests: The Python Requests library helps you access data via APIs.
- 3. JSON: This library puts the response (that is, the data) from an API into a human-readable format.
+   a.  Robotrader will recieve user input through streamllit 
+<img width="491" alt="Screen Shot 2022-04-24 at 7 58 52 AM" src="https://user-images.githubusercontent.com/96159292/164986140-b9c2de42-336d-4750-84b8-d337e2414ce0.png">
+   b. Robot will determine the price of the stock:
+ <img width="488" alt="Screen Shot 2022-04-24 at 9 40 27 AM" src="https://user-images.githubusercontent.com/96159292/164986963-9628f784-a6b1-48fd-8890-80036483522d.png">
 
- To install the Requests library, check that your development environment is active, and then run the following command:
-  
-  ```conda install -c anaconda requests```
+**Next steps:** 
 
- To install the JSON library, check that your development environment is active, and then run the following command:
-   
-   ```conda install -c jmcmurray json```
+To further develop the product to realize the complete project objectives are provided below
+
+<img width="749" alt="Screen Shot 2022-04-24 at 9 25 23 AM" src="https://user-images.githubusercontent.com/96159292/164986293-ece3a75d-60b6-4d15-88fc-a3140da0996e.png">
+
+**Further Details:** 
+  **Presentation** https://docs.google.com/presentation/d/1rYWpFhiXFshuFSV1FPA2J8I28cMPgwta2fUc7Wr2Jbc/edit#slide=id.g125114ac3ca_0_0
 
 ## Import the required libraries and dependencies
 ```
@@ -55,7 +65,7 @@ import matplotlib.pyplot as plt
 import csv
 from pathlib import Path
 import numpy as np
-
+import seaborn as sns
 %matplotlib inline
 ```
 We need also to import the relevant alpha vantage libraries :
@@ -63,39 +73,34 @@ We need also to import the relevant alpha vantage libraries :
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.cryptocurrencies import CryptoCurrencies
 ````
-Finally, we need to import required modules for Linear Regression, Metrics and Classifier: 
+We need to import required modules for Linear Regression, Metrics and Classifier: 
 ````
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
+
+```
+We need to import required modules for Linear Regression, Metrics and Classifier: 
+````
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC 
+#from sklearn.preprocessing import GetDummies
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+#Linear Regression Library
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+from sklearn.ensemble import RandomForestRegressor
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential
+
 ```
-`````
-
-## Usage
-
-As a user, I want the AI model/ML trading robot to tell me which top 50 stock/cryptocurrencies would be best to buy/invest in.  
-
-Trading robot recieves information from the user, including price history, macroeconomic, and company fundamental factors to determine which stock/crypto would be best to buy.  
-
-Indicators include EPS, Stock/crypto price, inflation,cosumer sentiment
-
-Machine Learning models include Random Forest Classifier, Logistic Regression, and Quadratic Discriminant Analysis
-
-## Dashboard Demonstration
-
-1.  Robotrader will recieve user input through streamllit to understand goals/risk of user
-![INSERT PHOTO OF DASHBAORD]
-2.  Robot will determine which bucket/category/classification the user will fall under (i.e. stock/crypto/bonds)
- ![INSERT PHOTO OF buckets]
-3.  Data will output on a spreadsheet for user
- ![INSERT PHOTO OF SPREADSHEET]  
 
 ## Contributers 
 
-Rama Kiran Atmakuri 
+Ram Atmakuri 
 ram.atmakuri@outlook.com 
 www.linkedin.com/in/ramatmakuri99
 
