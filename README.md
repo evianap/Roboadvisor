@@ -100,19 +100,19 @@ from tensorflow.keras.models import Sequential
 
 Ram Atmakuri 
 ram.atmakuri@outlook.com 
-www.linkedin.com/in/ramatmakuri99
+https://www.linkedin.com/in/ramatmakuri99
 
 Amanda Hum
-EMAIL
-LINK
+amanda.m.hum@gmail.com
+https://www.linkedin.com/in/amandamhum
 
-Jose (last name)
+Enrique Viana
 EMAIL
-LINK
+https://www.linkedin.com/in/enriqueviana
 
-Amine Baite
-EMAIL 
-LINK
+Mohammed Amine Baite
+aminebaite@gmail.com
+https://www.linkedin.com/in/amine-baite-3972a71b8/
 
 Alexis Rose Garcia 
 Alexisg324@gmail.com 
