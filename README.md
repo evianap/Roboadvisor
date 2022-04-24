@@ -48,7 +48,7 @@ We followed the below steps in meeting the project objectives for the MVP
 
 **Next steps:** 
 
-To further develop the product to realize the complete project objectives are provided below
+The next steps to further develop the product, to realize the complete project objectives, are provided below:
 
 <img width="749" alt="Screen Shot 2022-04-24 at 9 25 23 AM" src="https://user-images.githubusercontent.com/96159292/164986293-ece3a75d-60b6-4d15-88fc-a3140da0996e.png">
 
