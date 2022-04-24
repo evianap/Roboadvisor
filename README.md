@@ -107,7 +107,6 @@ amanda.m.hum@gmail.com
 https://www.linkedin.com/in/amandamhum
 
 Enrique Viana
-EMAIL
 https://www.linkedin.com/in/enriqueviana
 
 Mohammed Amine Baite
