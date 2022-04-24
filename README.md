@@ -76,17 +76,12 @@ We need also to import the relevant alpha vantage libraries :
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.cryptocurrencies import CryptoCurrencies
 ````
-We need to import required modules for Linear Regression, Metrics and Classifier: 
+We need to import required modules for Classificatgion, Regression, Neural Networks, and Metrics: 
 ````
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
-
-```
-We need to import required modules for Linear Regression, Metrics and Classifier: 
-````
-```
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC 
 #from sklearn.preprocessing import GetDummies
@@ -100,7 +95,6 @@ from sklearn.ensemble import RandomForestRegressor
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 ```
-
 
 ## Contributers 
 
