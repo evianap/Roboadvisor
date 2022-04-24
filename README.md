@@ -96,7 +96,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 ```
 ````
-## Contributers 
+## Contributors 
 
 Ram Atmakuri 
 ram.atmakuri@outlook.com 
